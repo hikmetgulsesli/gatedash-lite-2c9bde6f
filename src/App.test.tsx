@@ -7,4 +7,15 @@ describe('App', () => {
     render(<App />);
     expect(screen.getByTestId('setfarm-app-root')).toBeInTheDocument();
   });
+
+  it('exposes window.app with state and actions', () => {
+    render(<App />);
+    expect(window.app).toBeDefined();
+    expect(typeof window.app.getState).toBe('function');
+    expect(typeof window.app.dispatch).toBe('function');
+    expect(typeof window.app.reset).toBe('function');
+    const s = window.app.getState();
+    expect(s).toHaveProperty('game');
+    expect(s).toHaveProperty('screen');
+  });
 });
