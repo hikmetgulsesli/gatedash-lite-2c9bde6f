@@ -1,0 +1,102 @@
+[
+  {
+    "screenId": "942ed0bba9c740098492a10dc2385196",
+    "title": "Gameplay - GateDash Lite",
+    "componentName": "GameplayGatedashLite",
+    "file": "src/screens/GameplayGatedashLite.tsx",
+    "buttons": 4,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "start-game-1",
+        "kind": "button",
+        "label": "START GAME",
+        "index": 0
+      },
+      {
+        "id": "restart-2",
+        "kind": "button",
+        "label": "Restart",
+        "index": 1
+      },
+      {
+        "id": "pause-3",
+        "kind": "button",
+        "label": "Pause",
+        "index": 2
+      },
+      {
+        "id": "settings-4",
+        "kind": "button",
+        "label": "Settings",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "screenId": "e680ea85b8b54dcb9cb066ffd50fe555",
+    "title": "Game Settings - GateDash Lite",
+    "componentName": "GameSettingsGatedashLite",
+    "file": "src/screens/GameSettingsGatedashLite.tsx",
+    "buttons": 9,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "close-settings-1",
+        "kind": "button",
+        "label": "Close settings",
+        "index": 0
+      },
+      {
+        "id": "relaxed-2",
+        "kind": "button",
+        "label": "RELAXED",
+        "index": 1
+      },
+      {
+        "id": "arcade-3",
+        "kind": "button",
+        "label": "ARCADE",
+        "index": 2
+      },
+      {
+        "id": "hardcore-4",
+        "kind": "button",
+        "label": "HARDCORE",
+        "index": 3
+      },
+      {
+        "id": "normal-5",
+        "kind": "button",
+        "label": "NORMAL",
+        "index": 4
+      },
+      {
+        "id": "overdrive-6",
+        "kind": "button",
+        "label": "OVERDRIVE",
+        "index": 5
+      },
+      {
+        "id": "save-preferences-7",
+        "kind": "button",
+        "label": "SAVE PREFERENCES",
+        "index": 6
+      },
+      {
+        "id": "reset-to-defaults-8",
+        "kind": "button",
+        "label": "RESET TO DEFAULTS",
+        "index": 7
+      },
+      {
+        "id": "return-to-game-9",
+        "kind": "button",
+        "label": "RETURN TO GAME",
+        "index": 8
+      }
+    ]
+  }
+]
