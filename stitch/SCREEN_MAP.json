@@ -1,0 +1,20 @@
+[
+  {
+    "screenId": "942ed0bba9c740098492a10dc2385196",
+    "name": "Gameplay - GateDash Lite",
+    "type": "game",
+    "description": "Gameplay - GateDash Lite screen",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "e680ea85b8b54dcb9cb066ffd50fe555",
+    "name": "Game Settings - GateDash Lite",
+    "type": "settings",
+    "description": "Game Settings - GateDash Lite screen",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]

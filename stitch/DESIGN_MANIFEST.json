@@ -1,0 +1,24 @@
+[
+  {
+    "screenId": "942ed0bba9c740098492a10dc2385196",
+    "title": "Gameplay - GateDash Lite",
+    "htmlFile": "942ed0bba9c740098492a10dc2385196.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzY2MmE5NzNjMDFkZTRlYTM5ZDA3OTg0NDEzZThhYThiEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM5NjM1MDIxNzU0MjQxNzMxNDg2&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/gatedash-lite-2c9bde6f/stitch/942ed0bba9c740098492a10dc2385196.html",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  },
+  {
+    "screenId": "e680ea85b8b54dcb9cb066ffd50fe555",
+    "title": "Game Settings - GateDash Lite",
+    "htmlFile": "e680ea85b8b54dcb9cb066ffd50fe555.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2EzZTMwYmMyYWJkYTRkY2JhMTMwNzc2NWJhOTVkMzUxEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM5NjM1MDIxNzU0MjQxNzMxNDg2&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/gatedash-lite-2c9bde6f/stitch/e680ea85b8b54dcb9cb066ffd50fe555.html",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  }
+]

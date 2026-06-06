@@ -1,0 +1,619 @@
+{
+  "generatedAt": "2026-06-06T04:20:50.836Z",
+  "screenCount": 2,
+  "screens": {
+    "942ed0bba9c740098492a10dc2385196": {
+      "screenId": "942ed0bba9c740098492a10dc2385196",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "top-0",
+            "left-0",
+            "w-full",
+            "z-50",
+            "flex",
+            "justify-between",
+            "items-center",
+            "px-margin-mobile",
+            "md:px-margin-desktop"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "footer",
+          "layout": "flex-row",
+          "classes": [
+            "fixed",
+            "bottom-0",
+            "left-0",
+            "w-full",
+            "flex",
+            "justify-between",
+            "px-margin-mobile",
+            "md:px-margin-desktop",
+            "py-2",
+            "pointer-events-none"
+          ],
+          "childCount": 2
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "START GAME",
+          "classes": [
+            "px-8",
+            "py-4",
+            "bg-primary-fixed-dim",
+            "text-surface-container-lowest",
+            "font-data-lg",
+            "text-data-lg",
+            "rounded",
+            "hover:scale-105",
+            "hover:shadow-[0_0_25px_theme('colors.primary-fixed-dim')]",
+            "transition-all",
+            "duration-200",
+            "cursor-pointer",
+            "pointer-events-auto"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart",
+          "classes": [
+            "w-10",
+            "h-10",
+            "flex",
+            "items-center",
+            "justify-center",
+            "rounded-full",
+            "hover:bg-white/5",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed",
+            "transition-colors",
+            "pointer-events-auto"
+          ],
+          "icon": "refresh",
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Pause",
+          "classes": [
+            "w-10",
+            "h-10",
+            "flex",
+            "items-center",
+            "justify-center",
+            "rounded-full",
+            "hover:bg-white/5",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed",
+            "transition-colors",
+            "pointer-events-auto"
+          ],
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Settings",
+          "classes": [
+            "w-10",
+            "h-10",
+            "flex",
+            "items-center",
+            "justify-center",
+            "rounded-full",
+            "hover:bg-white/5",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed",
+            "transition-colors",
+            "pointer-events-auto"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/settings",
+          "expectedRoute": "/settings",
+          "routeInferred": true
+        },
+        {
+          "kind": "button",
+          "label": "SPACE to Dash • ESC to Pause • M for Settings",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "© 2024 NEON ARCADE SYSTEMS",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "refresh",
+        "pause",
+        "settings"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "on-error": "#690005",
+        "surface-container-high": "#2a292f",
+        "secondary-container": "#b600f8",
+        "surface-container": "#1f1f25",
+        "tertiary-container": "#ffd49c",
+        "on-tertiary-fixed-variant": "#624000",
+        "surface-container-lowest": "#0e0e13",
+        "surface-dim": "#131318",
+        "tertiary": "#fff6ef",
+        "on-surface-variant": "#b9cacb",
+        "inverse-surface": "#e4e1e9",
+        "on-background": "#e4e1e9",
+        "secondary": "#ebb2ff",
+        "on-error-container": "#ffdad6",
+        "on-tertiary-container": "#845600",
+        "on-surface": "#e4e1e9",
+        "surface-variant": "#35343a",
+        "on-secondary-container": "#fff6fc",
+        "secondary-fixed-dim": "#ebb2ff",
+        "on-tertiary": "#452b00",
+        "error": "#ffb4ab",
+        "surface-tint": "#00dbe7",
+        "outline-variant": "#3a494b",
+        "on-primary-fixed": "#002022",
+        "tertiary-fixed": "#ffddb3",
+        "on-secondary": "#520072",
+        "on-primary-container": "#006a71",
+        "primary-container": "#00f2ff",
+        "surface-container-low": "#1b1b20",
+        "primary-fixed": "#74f5ff",
+        "secondary-fixed": "#f8d8ff",
+        "background": "#131318",
+        "on-tertiary-fixed": "#291800",
+        "inverse-on-surface": "#303036",
+        "on-secondary-fixed-variant": "#74009f",
+        "primary-fixed-dim": "#00dbe7",
+        "primary": "#e1fdff",
+        "on-secondary-fixed": "#320047",
+        "inverse-primary": "#00696f",
+        "surface-bright": "#39383e",
+        "on-primary": "#00363a",
+        "surface-container-highest": "#35343a",
+        "surface": "#131318",
+        "tertiary-fixed-dim": "#ffb950",
+        "error-container": "#93000a",
+        "outline": "#849495",
+        "on-primary-fixed-variant": "#004f54"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Geist",
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "layoutHints": {
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "START GAME",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart",
+          "icon": "refresh",
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Pause",
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "/settings",
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "button",
+          "label": "SPACE to Dash • ESC to Pause • M for Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "© 2024 NEON ARCADE SYSTEMS",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "SPACE to Dash • ESC to Pause • M for Settings",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "© 2024 NEON ARCADE SYSTEMS",
+          "icon": null,
+          "active": false
+        }
+      ],
+      "title": "Gameplay - GateDash Lite"
+    },
+    "e680ea85b8b54dcb9cb066ffd50fe555": {
+      "screenId": "e680ea85b8b54dcb9cb066ffd50fe555",
+      "materialSymbolsRequired": true,
+      "sections": [],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Close settings",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-primary",
+            "transition-colors",
+            "hover:drop-shadow-[0_0_8px_rgba(0,219,231,0.5)]",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-primary/50",
+            "rounded-full",
+            "p-1"
+          ],
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "RELAXED",
+          "classes": [
+            "bg-transparent",
+            "text-on-surface-variant",
+            "font-data-sm",
+            "text-data-sm",
+            "py-2",
+            "rounded",
+            "hover:bg-white/5",
+            "hover:text-white",
+            "transition-all",
+            "text-center",
+            "focus:outline-none"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ARCADE",
+          "classes": [
+            "bg-secondary-container/20",
+            "text-secondary-fixed",
+            "border",
+            "border-secondary-fixed",
+            "font-data-sm",
+            "text-data-sm",
+            "py-2",
+            "rounded",
+            "shadow-[0_0_15px_rgba(182,0,248,0.3)]",
+            "transition-all",
+            "text-center",
+            "relative",
+            "overflow-hidden",
+            "focus:outline-none"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "HARDCORE",
+          "classes": [
+            "bg-transparent",
+            "text-on-surface-variant",
+            "font-data-sm",
+            "text-data-sm",
+            "py-2",
+            "rounded",
+            "hover:bg-white/5",
+            "hover:text-white",
+            "transition-all",
+            "text-center",
+            "focus:outline-none"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NORMAL",
+          "classes": [
+            "bg-primary-container/20",
+            "text-primary",
+            "border",
+            "border-primary-fixed-dim",
+            "font-data-sm",
+            "text-data-sm",
+            "py-2",
+            "rounded",
+            "shadow-[0_0_15px_rgba(0,219,231,0.3)]",
+            "transition-all",
+            "text-center",
+            "focus:outline-none"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "OVERDRIVE",
+          "classes": [
+            "bg-transparent",
+            "text-on-surface-variant",
+            "font-data-sm",
+            "text-data-sm",
+            "py-2",
+            "rounded",
+            "hover:bg-white/5",
+            "hover:text-white",
+            "transition-all",
+            "text-center",
+            "focus:outline-none",
+            "flex",
+            "justify-center",
+            "items-center",
+            "gap-1"
+          ],
+          "icon": "bolt",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "PREFERENCES",
+          "classes": [
+            "w-full",
+            "py-4",
+            "bg-primary-fixed-dim",
+            "text-on-primary-fixed",
+            "font-data-lg",
+            "text-data-lg",
+            "rounded-md",
+            "shadow-[0_0_20px_rgba(0,219,231,0.4)]",
+            "hover:scale-[1.02]",
+            "hover:shadow-[0_0_30px_rgba(0,219,231,0.6)]",
+            "hover:brightness-125",
+            "transition-all",
+            "duration-200",
+            "flex",
+            "items-center",
+            "justify-center",
+            "gap-3",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-white"
+          ],
+          "icon": "save",
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "RESET TO DEFAULTS",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "text-on-surface-variant",
+            "hover:text-white",
+            "transition-colors",
+            "underline",
+            "decoration-white/20",
+            "underline-offset-4",
+            "focus:outline-none"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "RETURN TO GAME",
+          "classes": [
+            "font-label-caps",
+            "text-label-caps",
+            "text-on-surface-variant",
+            "hover:text-primary",
+            "transition-colors",
+            "flex",
+            "items-center",
+            "gap-1",
+            "focus:outline-none",
+            "group"
+          ],
+          "icon": "logout",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/logout",
+          "expectedRoute": "/logout",
+          "routeInferred": true
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "close",
+        "warning",
+        "speed",
+        "bolt",
+        "keyboard",
+        "save",
+        "logout"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "on-error": "#690005",
+        "surface-container-high": "#2a292f",
+        "secondary-container": "#b600f8",
+        "surface-container": "#1f1f25",
+        "tertiary-container": "#ffd49c",
+        "on-tertiary-fixed-variant": "#624000",
+        "surface-container-lowest": "#0e0e13",
+        "surface-dim": "#131318",
+        "tertiary": "#fff6ef",
+        "on-surface-variant": "#b9cacb",
+        "inverse-surface": "#e4e1e9",
+        "on-background": "#e4e1e9",
+        "secondary": "#ebb2ff",
+        "on-error-container": "#ffdad6",
+        "on-tertiary-container": "#845600",
+        "on-surface": "#e4e1e9",
+        "surface-variant": "#35343a",
+        "on-secondary-container": "#fff6fc",
+        "secondary-fixed-dim": "#ebb2ff",
+        "on-tertiary": "#452b00",
+        "error": "#ffb4ab",
+        "surface-tint": "#00dbe7",
+        "outline-variant": "#3a494b",
+        "on-primary-fixed": "#002022",
+        "tertiary-fixed": "#ffddb3",
+        "on-secondary": "#520072",
+        "on-primary-container": "#006a71",
+        "primary-container": "#00f2ff",
+        "surface-container-low": "#1b1b20",
+        "primary-fixed": "#74f5ff",
+        "secondary-fixed": "#f8d8ff",
+        "background": "#131318",
+        "on-tertiary-fixed": "#291800",
+        "inverse-on-surface": "#303036",
+        "on-secondary-fixed-variant": "#74009f",
+        "primary-fixed-dim": "#00dbe7",
+        "primary": "#e1fdff",
+        "on-secondary-fixed": "#320047",
+        "inverse-primary": "#00696f",
+        "surface-bright": "#39383e",
+        "on-primary": "#00363a",
+        "surface-container-highest": "#35343a",
+        "surface": "#131318",
+        "tertiary-fixed-dim": "#ffb950",
+        "error-container": "#93000a",
+        "outline": "#849495",
+        "on-primary-fixed-variant": "#004f54"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Geist",
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "layoutHints": {
+        "gridCols": 3,
+        "flexDirection": "col",
+        "gap": "2"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Close settings",
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "RELAXED",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "ARCADE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "HARDCORE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NORMAL",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "OVERDRIVE",
+          "icon": "bolt",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "PREFERENCES",
+          "icon": "save",
+          "action": "form-submit",
+          "expectedBehavior": "validate inputs and submit/apply changes"
+        },
+        {
+          "kind": "button",
+          "label": "RESET TO DEFAULTS",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "RETURN TO GAME",
+          "icon": "logout",
+          "action": "navigate",
+          "route": "/logout",
+          "expectedBehavior": "navigate:/logout"
+        }
+      ],
+      "tabBar": [],
+      "title": "Game Settings - GateDash Lite"
+    }
+  }
+}
