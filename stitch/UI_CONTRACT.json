@@ -1,0 +1,162 @@
+[
+  {
+    "screenId": "942ed0bba9c740098492a10dc2385196",
+    "screenTitle": "Gameplay - GateDash Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 170
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 199
+      },
+      {
+        "type": "button",
+        "label": "Pause",
+        "line": 202
+      },
+      {
+        "type": "button",
+        "label": "Settings",
+        "line": 205
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "START GAME",
+        "line": 170
+      },
+      {
+        "type": "button",
+        "label": "Restart",
+        "line": 199
+      },
+      {
+        "type": "button",
+        "label": "Pause",
+        "line": 202
+      },
+      {
+        "type": "button",
+        "label": "Settings",
+        "line": 205
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 4,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "e680ea85b8b54dcb9cb066ffd50fe555",
+    "screenTitle": "Game Settings - GateDash Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Close settings",
+        "line": 127
+      },
+      {
+        "type": "button",
+        "label": "RELAXED",
+        "line": 140
+      },
+      {
+        "type": "button",
+        "label": "ARCADE",
+        "line": 141
+      },
+      {
+        "type": "button",
+        "label": "HARDCORE",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "NORMAL",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "OVERDRIVE",
+        "line": 156
+      },
+      {
+        "type": "button",
+        "label": "PREFERENCES",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "RESET TO DEFAULTS",
+        "line": 200
+      },
+      {
+        "type": "button",
+        "label": "RETURN TO GAME",
+        "line": 203
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Close settings",
+        "line": 127
+      },
+      {
+        "type": "button",
+        "label": "RELAXED",
+        "line": 140
+      },
+      {
+        "type": "button",
+        "label": "ARCADE",
+        "line": 141
+      },
+      {
+        "type": "button",
+        "label": "HARDCORE",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "NORMAL",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "OVERDRIVE",
+        "line": 156
+      },
+      {
+        "type": "button",
+        "label": "PREFERENCES",
+        "line": 195
+      },
+      {
+        "type": "button",
+        "label": "RESET TO DEFAULTS",
+        "line": 200
+      },
+      {
+        "type": "button",
+        "label": "RETURN TO GAME",
+        "line": 203
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 9,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
